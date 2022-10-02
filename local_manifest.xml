@@ -3,12 +3,9 @@
   
        <remote name="XdX"
         fetch="https://github.com/Ranger-XD" />
-      
-       <remote name="hsx"
-           fetch="https://github.com/hsx02" /> 
-
- <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="XdX" revision="A12L"/>
- <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="XdX" revision="A12L"/>
- <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
+  
+ <project path="device/samsung/j2corelte" name="device_samsung_j2corelte" remote="XdX" revision="A-8.1"/>
+ <project path="vendor/samsung/j2corelte" name="vendor_samsung_j2corelte" remote="XdX" revision="A-8.1"/>
+ <project path="kernel/samsung/j2corelte" name="kernel_samsung_j2corelte" remote="XdX" revision="A-8.1"/>
  
 </manifest>
