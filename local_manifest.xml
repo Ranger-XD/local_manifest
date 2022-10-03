@@ -3,6 +3,11 @@
   
        <remote name="XdX"
         fetch="https://github.com/Ranger-XD" />
+
+        <remote name="ddd"
+        fetch="https://github.com/LineageOS" />
+
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="ddd" revision="lineage-15.1"/>
   
  <project path="device/samsung/j2corelte" name="device_samsung_j2corelte" remote="XdX" revision="A-8.1"/>
  <project path="vendor/samsung/j2corelte" name="vendor_samsung_j2corelte" remote="XdX" revision="A-8.1"/>
